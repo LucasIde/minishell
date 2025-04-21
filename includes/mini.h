@@ -79,7 +79,7 @@ typedef struct s_exec_pipe
 	char	**envp;
 }			t_exec_pipe;
 
-t_var	*g_var;
+extern t_var	*g_var;
 
 char	*ft_strdup(char *s1);
 int		ft_strncmp(char *s1, char *s2, int n);

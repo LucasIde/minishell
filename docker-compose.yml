@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  minishell:
+    build: .
+    container_name: minishell
+    stdin_open: true     # pour permettre l'entrée utilisateur
+    tty: true            # pour que readline fonctionne bien

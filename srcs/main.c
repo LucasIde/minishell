@@ -12,6 +12,8 @@
 
 #include "../includes/mini.h"
 
+t_var *g_var;
+
 int	init_global(char **envp)
 {
 	int	i;
